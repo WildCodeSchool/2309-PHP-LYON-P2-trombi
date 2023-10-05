@@ -10,7 +10,10 @@ In the `script.php` file from the `bin` folder:
 - `$repos` *string*: indicate in the name of the repository on your Github account where the site will be deployed.
 - `$files` *array*: indicate the names of the php files (located in the root of the project) that you want to convert into html.  
 __IMPORTANT__: do not write the `.php` extension but only the name of the file (ex: `index`, `contact`, etc.)
-- run the `bin/generate.sh` command in your terminal
+- run the command in your terminal
+  ```bash
+  sh bin/generate.sh
+  ```
 
 A `docs` folder will be created in the root containing all the elements of the site. 
 
@@ -20,4 +23,4 @@ Simply select this `docs` folder on your Github repository via the `pages` tab t
 That's it!
 
 ## Example
-Clone this project as an example which is deployed at https://jfm-wcs.github.io/generate-html-static-website-with-php
+Clone this project as an example which is deployed at https://wildcodeschool.github.io/generate-html-static-website-with-php
