@@ -71,7 +71,7 @@ ul {
 
 /*********** BODY **************/
 body {
-	background-image: url(../assets/images/background_big_white.png);
+	background-image: url(/images/background_big_white.png);
 }
 
 .main-container {
