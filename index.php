@@ -133,18 +133,18 @@ $dataStudents = [
            <li> <a href="/index.php">Home</a></li>
             <li><a href="/indexWilders.php">Wilders</a></li>
               <ul> 
-                <li> <a href="/wildersAmina.html">Amina</a></li>
-                <li> <a href="/wildersBenjamin.html">Benjamin</a></li>
-                <li> <a href="/wildersVictor.html">Victor</a></li>
-                <li> <a href="/wildersThomas.html">Thomas</a></li>
-                <li> <a href="/wildersPaul.html">Paul</a></li>
-                <li> <a href="/wildersMerwan.html">Merwan</a></li>
-                <li> <a href="/wildersNicky.html">Nicky</a></li>
-                <li> <a href="/wildersPlouis.html">Pierre-Louis</a></li>
-                <li> <a href="/wildersRyad.html">Ryad</a></li>
-                <li> <a href="/wildersAude.html">Aude</a></li>
-                <li> <a href="/wildersRomain.html">Romain</a></li></ul>
-             <li> <a href="/aboutus.html">A propos</a></li>
+                <li> <a href="./wildersAmina.html">Amina</a></li>
+                <li> <a href="./wildersBenjamin.html">Benjamin</a></li>
+                <li> <a href="./wildersVictor.html">Victor</a></li>
+                <li> <a href="./wildersThomas.html">Thomas</a></li>
+                <li> <a href="./wildersPaul.html">Paul</a></li>
+                <li> <a href="./wildersMerwan.html">Merwan</a></li>
+                <li> <a href="./wildersNicky.html">Nicky</a></li>
+                <li> <a href="./wildersPlouis.html">Pierre-Louis</a></li>
+                <li> <a href="./wildersRyad.html">Ryad</a></li>
+                <li> <a href="./wildersAude.html">Aude</a></li>
+                <li> <a href="./wildersRomain.html">Romain</a></li></ul>
+             <li> <a href="./aboutus.html">A propos</a></li>
         </div>
         <h2>BSPE</h2>
     </nav>
