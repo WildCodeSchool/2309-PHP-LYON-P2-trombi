@@ -1,0 +1,223 @@
+/***** S T Y L E  S H E E T  F O R  T H E  D E S K T O P  ******/
+
+/*************** C S S  V A R I A B L E S ****************/
+
+:root{
+    --main-font:'Nunito Sans', sans-serif;
+    --h2-h3-font: 'Source Sans 3', sans-serif;
+    --h1-font: 'Source Sans 3', sans-serif;
+    --h1-font-color: rgba(71, 69, 84, 1);
+    --h2-font-color: rgba(172, 167, 203, 1);
+    --font-color-p-first: whitesmoke;
+    --clear-background-color: rgba(172, 167, 203, 1);
+    --dark-background-color: rgba(71, 69, 84, 1);
+    --box-shadow: box-shadow: rgba(50, 50, 93, 0.3) 0px 13px 80px 25px, rgba(0, 0, 0, 0.9) 0px 0px 16px -5px;
+    --text-shadow: px 0px 9px rgba(0,0,0,0.45);
+}
+
+/**************** A L L  &  B O D Y ************************/
+
+hr{
+    border: solid 1px;
+    color: var(--dark-background-color);
+    width : 40px;
+    margin: 8px auto 40px;
+    display: block;
+}
+
+/***********HOME SCROLL ************* */
+
+.homeScroll hgroup{
+    padding-top: 250px;
+}
+
+.homeScroll img{
+    display: none;
+}
+
+/**************** M E N U  B U R G E R ************************/
+
+
+.list-visible {
+    left: 0;
+    text-align: center;
+    left: 65px;
+    top: 50px;
+    width: 15vw;
+    height: 40vh;
+}
+
+.navbar-mobile i {
+	color: rgb(90, 76, 97);
+}
+
+/******************** H E A D E R ************************/
+
+/******* NAV BAR *****/
+
+
+header h2{
+    display: none;
+}
+
+.headAboutCard, .mindCards, header p{
+    display: block;
+}
+
+/***** first card *****/
+
+.headAboutCard{
+    display: block;
+    text-align: center;
+    font-family: var(--h1-font);
+    margin-top: 66px;
+}
+
+.headAboutCard div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 40px auto;
+}
+
+.headAboutCard div p:nth-of-type(1){
+    letter-spacing: 0.5rem;
+    font-size: medium;
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+.headAboutCard div p:nth-of-type(2){
+    font-size:small;
+    text-align: center;
+}
+
+.headAboutCard hr{
+    border: solid 1px;
+    color: var(--dark-background-color);
+    width : 40px;
+    margin: 8px auto 40px;
+}
+
+/****  GROUP CARDS  *****/
+
+.mindCards{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 3rem;
+    margin: 40px auto;
+    width: 80%;
+}
+
+.mindCards div p{
+    font-size: medium;
+    text-align: center;
+    margin-bottom: 8px;
+    }
+
+header p{
+    text-align: center;
+}
+
+/* ******************* M A I N ******************************* */
+
+/********** DESKTOP PART ************/
+main hgroup h1{
+    display: none;
+}
+
+main hgroup h2{
+    display: block;
+    color: var(--dark-background-color);
+    font-size: x-large;
+    letter-spacing: 0.5rem;
+    padding-top: 24px;
+}
+
+main hgroup p{
+    display: none;
+}
+
+/*********** HOME CARD ************/
+
+.homeGrid{
+    display: grid;
+    grid-template-columns: repeat(3, 221px);
+    grid-template-rows: repeat(4, 326px);
+    grid-gap: 32px;
+     justify-content: center;
+    margin-bottom: 150px;
+}
+
+.desktopPicture{
+    display: block;
+ }
+
+
+@media screen and (max-width: 750px) {
+    .homeGrid{
+        grid-template-columns: repeat(2, 221px);
+        grid-template-rows: repeat(6, 326px);
+        grid-gap: 12px;
+        margin-bottom: 150px;
+    }
+}
+
+/********* ALL HOME CARDS  *******/
+.darkClass, .clearClass, .studentHomeCardDark{
+    border-radius: 2px;
+    padding: 0;
+    margin: 0;
+}
+
+.darkClass p, .clearClass p, .studentHomeCardDark p{
+    display: none;
+}
+
+.aboutUs{
+    border-radius: 2px;
+ }
+
+.aboutUs p{
+    display: none;
+ } 
+
+#A_propos a img{
+    position: relative;
+    top: 85%;
+    left: 157px;
+}
+
+#A_propos {
+    background-repeat: no-repeat;
+    background-color: transparent;
+    background-image: url(/assets/images/wilders/wilders.png);
+}
+
+/**************** M A S T E R  H O M E  C A R D S  ************/
+
+
+
+    /* *********** F O O T E R ***************************************/
+
+footer hgroup{
+    margin: 60px;
+    padding-top: 155px;
+    text-align: justify;
+}
+
+footer button {
+    width: 300px;
+}
+
+.down{
+    width: 46px;
+    position: relative;
+    top: 30vh;
+    left: 50vw;
+}
+
+
+

@@ -1,14 +1,16 @@
 <?php
 
 // change this path with your GitHub repository name
-$repos = "/generate-html-static-website-with-php";
+$repos = "/2309-PHP-LYON-P2-trombi";
 
 //list the php files from root directory that must be converted.
 //important: do not write the extension .php
 $files = [
     "index",
-    "contact",
-    "about-us"
+    "indexWilders",
+    "_footer",
+    "_head",
+    "_header",
 ];
 
 foreach ($files as $file) {
