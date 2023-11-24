@@ -15,8 +15,8 @@ include 'function.php'
     <nav class="navbar-mobile">
    <i class="fa-solid fa-bars"></i>
         <div class="nav-list-mobile">
-           <li> <a href="/">Home</a></li>
-            <li><a href="/indexWilders.php">Wilders</a></li>
+           <li> <a href="./">Home</a></li>
+            <li><a href="./indexwilders.html">Wilders</a></li>
             <ul> <li> <a href="./wildersAmina.html">Amina</a></li>
             <li> <a href="./wildersBenjamin.html">Benjamin</a></li>
             <li> <a href="./wildersVictor.html">Victor</a></li>
