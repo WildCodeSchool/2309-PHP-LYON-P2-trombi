@@ -8,7 +8,7 @@ include 'function.php'
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/2309-PHP-LYON-P2-trombi/assets/css/wilders.css">
-    <script src="https://kit.fontawesome.com/9fbc16b7ca.js" crossorigin="anonymous"'></script>
+    <script src="https://kit.fontawesome.com/9fbc16b7ca.js" crossorigin="anonymous"></script>
     <title>Page des wilders</title>
 </head>
 <body>
