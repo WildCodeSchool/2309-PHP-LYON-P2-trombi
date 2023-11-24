@@ -29,8 +29,8 @@ $dataStudents = [
     'firstname' => 'Victor',
     'title' => 'Padawan',
     'link' => 'wildersVictor.html',
-    'image' => '/assets/images/desktop/victor_small.png',
-    'arrow' => '/assets/images/Arrowright.png',
+    'image' => './assets/images/desktop/victor_small.png',
+    'arrow' => './assets/images/Arrowright.png',
 ],
 [
     'class' => 'darkClass',
@@ -38,8 +38,8 @@ $dataStudents = [
     'firstname' => 'Thomas',
     'title' => 'Padawan',
     'link' => 'wildersThomas.html',
-    'image' => '/assets/images/desktop/thomas_small.png',
-    'arrow' => '/assets/images/Arrowright.png',
+    'image' => './assets/images/desktop/thomas_small.png',
+    'arrow' => './assets/images/Arrowright.png',
 ],
 [
     'class' => 'darkClass',
@@ -47,8 +47,8 @@ $dataStudents = [
     'firstname' => 'Paul',
     'title' => 'Padawan',
     'link' => 'wildersPaul.html',
-    'image' => '/assets/images/desktop/paul_small.png',
-    'arrow' => '/assets/images/Arrowright.png',
+    'image' => './assets/images/desktop/paul_small.png',
+    'arrow' => './assets/images/Arrowright.png',
 ],
 [
     'class' => 'clearClass',
@@ -56,8 +56,8 @@ $dataStudents = [
     'firstname' => 'Merwan',
     'title' => 'Padawan',
     'link' => 'wildersMerwan.html',
-    'image' => '/assets/images/desktop/merwan_small.png',
-    'arrow' => '/assets/images/Arrowright.png',
+    'image' => './assets/images/desktop/merwan_small.png',
+    'arrow' => './assets/images/Arrowright.png',
 ],
 [
     'class' => 'clearClass',
@@ -65,8 +65,8 @@ $dataStudents = [
     'firstname' => 'Nicky',
     'title' => 'Padawan',
     'link' => 'wildersNicky.html',
-    'image' => '/assets/images/desktop/nicky_small.png',
-    'arrow' => '/assets/images/Arrowright.png',
+    'image' => './assets/images/desktop/nicky_small.png',
+    'arrow' => './assets/images/Arrowright.png',
 ],
 [
     'class' => 'darkClass',
@@ -74,8 +74,8 @@ $dataStudents = [
     'firstname' => 'Pierre-Louis',
     'title' => 'Padawan',
     'link' => 'wildersPlouis.html',
-    'image' => '/assets/images/desktop/pierrelouis_small.png',
-    'arrow' => '/assets/images/Arrowright.png',
+    'image' => './assets/images/desktop/pierrelouis_small.png',
+    'arrow' => './assets/images/Arrowright.png',
 ],
 [
     'class' => 'darkClass',
@@ -83,8 +83,8 @@ $dataStudents = [
     'firstname' => 'Aude',
     'title' => 'Padawan',
     'link' => 'wildersAude.html',
-    'image' => '/assets/images/desktop/aude_small.png',
-    'arrow' => '/assets/images/Arrowright.png',
+    'image' => './assets/images/desktop/aude_small.png',
+    'arrow' => './assets/images/Arrowright.png',
 ],
 [
     'class' => 'clearClass',
@@ -92,8 +92,8 @@ $dataStudents = [
     'firstname' => 'Ryad',
     'title' => 'padawan',
     'link' => 'wildersRyad.html',
-    'image' => '/assets/images/desktop/ryad_small.png',
-    'arrow' => '/assets/images/Arrowright.png',
+    'image' => './assets/images/desktop/ryad_small.png',
+    'arrow' => './assets/images/Arrowright.png',
 ],
 [
     'class' => 'clearClass',
@@ -101,8 +101,8 @@ $dataStudents = [
     'firstname' => 'Romain',
     'title' => 'Padawan',
     'link' => 'wildersRomain.html',
-    'image' => '/assets/images/desktop/romain_small.png',
-    'arrow' => '/assets/images/Arrowright.png',
+    'image' => './assets/images/desktop/romain_small.png',
+    'arrow' => './assets/images/Arrowright.png',
 ],
 ];
   ?>
